@@ -1,16 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import Hero from '@/components/Hero.jsx';
+// src/App.jsx
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
 
-function App() {
-  const [count, setCount] = useState(0)
+// Pages
+import Home from "./pages/Home";
+import Impressum from "./pages/impressum"; // Make sure this matches your file name's case
 
+export default function App() {
   return (
-    <div>
-      <Hero />
-    </div>
-  )
-}
+    <BrowserRouter>
 
-export default App
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/impressum" element={<Impressum />} />
+          {/* Optional: 404-Route */}
+          <Route path="*" element={<div style={{padding:20}}>Seite nicht gefunden</div>} />
+        </Routes>
+      </main>
+    </BrowserRouter>
+  );
+}
