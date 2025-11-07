@@ -8,7 +8,12 @@ export default function CV() {
     <div>
       <Header />
       <div className="cv-container">
-        <h1>My CV</h1>
+        <div className="cv-header-row">
+          <h1>My CV</h1>
+          <a href={cvPDF} download className="cv-download-btn">
+              Download PDF
+          </a>
+        </div>
       </div>
       <div>
          <img 
@@ -17,6 +22,7 @@ export default function CV() {
           className="cv-preview"
         />
       </div>
+      <div className="spacer"></div>
     </div>
   );
 }

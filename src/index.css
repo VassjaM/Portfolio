@@ -38,6 +38,10 @@ h1 {
   line-height: 1.1;
 }
 
+.spacer {
+  height: 10rem;
+}
+
 /* ---fonts--- */
 
 @font-face {
