@@ -1,17 +1,16 @@
 // src/App.jsx
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from "./components/Header";
 
 // Pages
 import Home from "./pages/Home";
-import Impressum from "./pages/impressum"; // Make sure this matches your file name's case
+import Impressum from "./pages/Impressum";
 
 export default function App() {
   return (
     <BrowserRouter>
-
       <main>
         <Routes>
+          // Index Page
           <Route path="/" element={<Home />} />
           <Route path="/impressum" element={<Impressum />} />
           {/* Optional: 404-Route */}
