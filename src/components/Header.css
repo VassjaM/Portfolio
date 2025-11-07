@@ -5,31 +5,38 @@
 }
 
 .site-header {
-    background: #111;
-    padding: 1rem 2rem;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-
-    /* optional: damit die Nav über der Seite "schwebt" */
+    padding: 1rem 3rem;
+    margin: 1.25rem;
     position: relative;
-    z-index: 1001;
-
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
 nav {
     display: flex;
-    gap: 2rem;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .link-header {
-    color: white;
+    color: var(--color-font-primary);
     text-decoration: none;
-    font-size: 1.1rem;
     font-weight: 500;
     transition: color 0.2s ease;
 }
 
 .link-header:hover {
     color: #646cff;
+}
+
+.logo {
+    font-weight: 400;
+    line-height: 0.8;
+    font-size: 1rem;
+}
+
+.cv-link {
+    font-weight: 600;
+    font-size: 1.25rem;
 }
