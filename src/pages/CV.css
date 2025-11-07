@@ -1,0 +1,22 @@
+.cv-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 3rem;
+}
+
+
+h1 {
+    font-size: 4.2rem;
+    color: var(--color-font-primary);
+}
+
+
+.cv-preview {
+    width: 100%;
+    max-width: 900px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}

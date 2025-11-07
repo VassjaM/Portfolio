@@ -5,8 +5,7 @@
 }
 
 .site-header {
-    padding: 1rem 3rem;
-    margin: 1.25rem;
+    padding: 2rem 4rem;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -27,7 +26,7 @@ nav {
 }
 
 .link-header:hover {
-    color: #646cff;
+    color: var(--color-primary-accent);
 }
 
 .logo {

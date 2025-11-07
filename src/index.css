@@ -3,6 +3,7 @@
 :root {
   /* ---colors--- */
     --color-font-primary: rgb(255, 255, 255);
+    --color-primary-accent: #D05353;
     background-color: #242424;
 
   /* ---fonts--- */
