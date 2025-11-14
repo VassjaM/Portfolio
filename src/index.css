@@ -1,4 +1,5 @@
 /* variables for the css styling */
+@import "tailwindcss";
 
 :root {
   /* ---colors--- */
