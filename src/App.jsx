@@ -1,5 +1,5 @@
 // src/App.jsx
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 // Pages
 import Home from "./pages/Home";
@@ -8,16 +8,16 @@ import CV from "./pages/CV";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <main>
         <Routes>
-          // Index Page
+          {/* Index Page */}
           <Route path="/" element={<Home />} />
           <Route path="/CV" element={<CV />} />
           {/* Optional: 404-Route */}
-          <Route path="*" element={<div style={{padding:20}}>Seite nicht gefunden</div>} />
+          <Route path="*" element={<div style={{ padding: 20 }}>Seite nicht gefunden</div>} />
         </Routes>
       </main>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
