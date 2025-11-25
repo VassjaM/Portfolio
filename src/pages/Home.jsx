@@ -5,8 +5,13 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <h1>Willkommen auf meiner Portfolio-Website</h1>
-      <p>Hier finden Sie Informationen über meine Projekte und Erfahrungen.</p>
+      <div className="flex px-5 mb-18">
+        <h1 className="text-5xl text-(--color-font-primary) font-black tracking-tight">JUNIOR<br/>FRONTEND<br/>DEVELOPER</h1>
+      </div>
+      <div className="flex flex-col px-5">
+        <h2 className="text-2xl text-(--color-font-primary) font-bold tracking-tight">HELLO. I AM VASSILIJ</h2>
+        <h3 className="text-base text-(--color-font-primary) font-regular indent-15 px-7 py-8">I combine my passion for front-end development with thoughtful design to create clear and accessible digital experiences. Typography, details, and clean code are at the core of my work. My goal is to build websites that are both technically precise and visually compelling.</h3>
+      </div>
     </div>
   );
 }

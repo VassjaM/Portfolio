@@ -5,24 +5,39 @@ import cvImage from "../assets/cv/CV - Vassilij Misenko.jpg"
 
 export default function CV() {
   return (
-    <div>
+    <div className="min-h-screen text-[var(--color-font-primary)]">
       <Header />
-      <div className="cv-container">
-        <div className="cv-header-row">
-          <h1>My CV</h1>
-          <a href={cvPDF} download className="cv-download-btn">
-              Download PDF
+
+      <div className="w-full max-w-[900px] mx-auto pt-12 px-4">
+        <div className="flex flex-col md:flex-row justify-between md:items-center gap-4 pb-8">
+          <h1 className="text-4xl font-bold md:text-5xl">My CV</h1>
+
+          <a href={cvPDF} download className="
+            px-4 py-2
+            bg-[var(--color-primary-accent)] 
+            text-white 
+            rounded-lg 
+            font-semibold 
+            transition-all 
+            hover:bg-[#646cff]">
+            Download PDF
           </a>
         </div>
       </div>
+
       <div>
          <img 
           src={cvImage} 
           alt="CV Preview"
-          className="cv-preview"
+          className="w-full 
+            max-w-[900px] 
+            mx-auto 
+            rounded-xl 
+            shadow-xl 
+            block"
         />
       </div>
-      <div className="spacer"></div>
+      <div className="h-40"></div>
     </div>
   );
 }
