@@ -54,7 +54,7 @@ export default function Header() {
 
   return (
     <div className="sticky top-0 z-[1000]">
-      <header className="px-5 py-5 backdrop-blur-lg [mask-image:linear-gradient(to_bottom,rgba(0,0,0,1)_85%,rgba(0,0,0,0)_100%)]">
+      <header className="px-5 py-5 backdrop-blur-lg bg-[rgba(36,36,36,0.50)]">
         <div className="flex items-center justify-between">
 
           {/* desktop nav*/}
