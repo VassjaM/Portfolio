@@ -3,8 +3,8 @@
 :root {
   /* ---colors--- */
   --color-font-primary: rgb(255, 255, 255);
-  --color-primary-accent: #D05353;
-  --color-text-primary: #C3C3C3;
+  --color-primary-accent: #d05353;
+  --color-text-primary: #c3c3c3;
   --color-background-primary: #242424;
   --color-background-accent: #333333;
 
@@ -12,15 +12,11 @@
   --font-family-primary: "Satoshi", sans-serif;
   --font-family-title: "Anton", sans-serif;
 
-  
- 
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 
 /* ---global reset--- */
 body {
@@ -46,21 +42,19 @@ span {
   font-family: var(--font-family-primary);
 }
 
-
 /* ---font face--- */
 @font-face {
-  font-family: 'Satoshi';
-  src: url('./assets/fonts/Satoshi_Complete/Fonts/TTF/Satoshi-Variable.ttf') 
-      format('truetype-variations');
+  font-family: "Satoshi";
+  src: url("./assets/fonts/Satoshi_Complete/Fonts/TTF/Satoshi-Variable.ttf")
+    format("truetype-variations");
   font-weight: 100 900;
   font-display: swap;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Anton';
-  src: url('./assets/fonts/Anton/Anton-Regular.ttf') 
-      format('truetype');
+  font-family: "Anton";
+  src: url("./assets/fonts/Anton/Anton-Regular.ttf") format("truetype");
   font-display: swap;
   font-style: normal;
 }
