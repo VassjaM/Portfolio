@@ -8,8 +8,8 @@ export default function CV() {
     <div className="min-h-screen text-[var(--color-font-primary)]">
       <Header />
 
-      <div className="w-full max-w-[900px] mx-auto pt-12 px-4">
-        <div className="flex flex-col md:flex-row justify-between md:items-center gap-4 pb-8">
+      <div className="w-full max-w-[900px] mx-auto pt-12 px-5">
+        <div className="flex flex-row justify-between md:items-center gap-4 pb-8">
           <h1 className="text-4xl font-bold md:text-5xl">My CV</h1>
 
           <a href={cvPDF} download className="
@@ -25,7 +25,7 @@ export default function CV() {
         </div>
       </div>
 
-      <div>
+      <div className="px-5">
          <img 
           src={cvImage} 
           alt="CV Preview"
