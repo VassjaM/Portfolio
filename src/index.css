@@ -5,8 +5,8 @@
   --color-font-primary: rgb(255, 255, 255);
   --color-primary-accent: #D05353;
   --color-text-primary: #C3C3C3;
-
-  background-color: #242424;
+  --color-background-primary: #242424;
+  --color-background-accent: #333333;
 
   /* ---typopgraphy--- */
   --font-family-primary: "Satoshi", sans-serif;
@@ -25,14 +25,25 @@
 /* ---global reset--- */
 body {
   margin: 0;
+  background-color: var(--color-background-primary);
 }
 
 h1 {
   font-family: var(--font-family-title);
+  color: var(--color-font-primary);
 }
 
 h2 {
   font-family: var(--font-family-title);
+  color: var(--color-font-primary);
+}
+
+p {
+  font-family: var(--font-family-primary);
+}
+
+span {
+  font-family: var(--font-family-primary);
 }
 
 
