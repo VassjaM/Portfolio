@@ -37,7 +37,7 @@ export default function CV() {
             block"
         />
       </div>
-      <div className="h-40"></div>
+      <div className="h-1000"></div>
     </div>
   );
 }
