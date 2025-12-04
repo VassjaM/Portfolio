@@ -34,13 +34,16 @@ h2 {
   color: var(--color-font-primary);
 }
 
-p {
+h3 {
   font-family: var(--font-family-primary);
+  color: var(--color-font-primary);
 }
 
-span {
+p {
   font-family: var(--font-family-primary);
+  color: var(--color-text-primary);
 }
+
 
 /* ---font face--- */
 @font-face {
